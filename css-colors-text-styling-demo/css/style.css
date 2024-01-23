@@ -1,0 +1,27 @@
+#first-paragraph{
+    color: rgb(37, 0, 247);
+    background-color: yellow;
+}
+
+#second-paragraph{
+    color: rgb(255, 95, 67);
+}
+
+#s1 {
+    color: crimson;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+#s2{
+    font-style: italic;
+    text-decoration: line-through;
+}
+
+#s3{
+    background-color: rgb(242, 255, 123);
+}
+
+#s4{
+    text-align: right;
+}
