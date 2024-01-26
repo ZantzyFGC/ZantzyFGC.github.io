@@ -1,0 +1,27 @@
+#navbar{
+    text-align: center;
+    background-color: blue;
+    padding: 24px;
+}
+
+
+#navbar a {
+    color: aliceblue;
+}
+
+ul {
+    color: green;
+}
+
+ul a {
+    color: lime;
+}
+
+ul p a {
+    color: aqua;
+}
+
+ul div a {
+    color: black;
+}
+
