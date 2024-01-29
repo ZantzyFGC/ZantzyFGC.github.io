@@ -1,0 +1,91 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Generic License assignment.
+
+    Good luck, and have fun!
+*/
+
+#license {
+    width: 700px;
+    border: 3px solid black;
+    border-radius: 12px;
+}
+
+#driver-license {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    margin: 48;
+}
+
+
+
+#id-and-expiration span{
+    color: red;
+    font-weight: bold;
+}
+
+
+#small-pic {
+    display: inline-block;
+    opacity: 60%;
+}
+
+#data-fields {
+    display: inline-block;
+    margin: 12px 12px;
+}
+
+#data-left {
+    display: inline-block;
+    color: darkblue;
+}
+
+#data-left span {
+    color: red;
+    font-weight: bold;
+}
+
+#data-right {
+    display: inline-block;
+    margin-left: 12px;
+    color: darkblue;
+}
+
+#data-right span{
+    color: red;
+    font-weight: bold;
+}
+
+#signature{
+    text-align: center;
+}
+
+
+
+
+#address {
+    font-weight: bold;
+}
+
+#left-side {
+    width: 60%;
+    display: inline-block;
+}
+
+
+#right-side {
+    width: 30%;
+    display: inline-block;
+    border: 2px solid red;
+}
+
+
+#id-and-expiration div {
+    display: inline-block;
+}
+
+
