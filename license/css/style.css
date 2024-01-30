@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
 /*
     NOTE TO STUDENTS: 
 
@@ -11,6 +12,9 @@
     width: 700px;
     border: 3px solid black;
     border-radius: 12px;
+    padding: 24px;
+    background: linear-gradient(rgb(253, 235, 131), rgb(207, 134, 38));
+    box-shadow: 8px 8px 6px;
 }
 
 #driver-license {
@@ -32,6 +36,10 @@
 #small-pic {
     display: inline-block;
     opacity: 60%;
+}
+
+#small-pic img {
+    width: 90px;
 }
 
 #data-fields {
@@ -62,6 +70,8 @@
 
 #signature{
     text-align: center;
+    font-family: ms madi;
+    font-weight: 600;
 }
 
 
@@ -72,15 +82,14 @@
 }
 
 #left-side {
-    width: 60%;
+    width: 65%;
     display: inline-block;
 }
 
 
 #right-side {
-    width: 30%;
+    width: 34%;
     display: inline-block;
-    border: 2px solid red;
 }
 
 
@@ -88,4 +97,24 @@
     display: inline-block;
 }
 
+h1 {
+    color: navy;
+    font-size: 48px;
+    margin: 0px;
+}
 
+#right-side img {
+    width: 100%;
+}
+
+#donor, #real-id {
+    display: inline-block;
+}
+
+#donor {
+    color: red;
+}
+
+#real-id {
+    color: orange
+}
