@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: rgb(226, 226, 226);
+}
+
+#two-columns {
+    display: flex;
+}
+
+
+#sidebar-content {
+    width: 200px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.295);
+    margin-right: 24px;
+    margin-left: 12px;
+    position: sticky;
+    top: 0px;
+}
+
+
+#sidebar-content h2 {
+    text-align: center;
+}
+
+#sidebar-content li {
+    margin-bottom: 5px;
+}
+
+#sidebar-content a {
+    text-decoration: none;
+    color: orangered;
+}
+
+#main-content {
+    flex: 3;
+    margin-right: 24px;
+    padding: 12px;
+    background-color: white;
+    box-shadow: 6px 6px 6px 6px rgba(0, 0, 0, 0.384)
+}
+
+#p-column-2010 {
+    display: flex;
+   
+}
+
+#tournaments-p-column {
+    display: flex;
+   
+}

@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#two-columns {
+    display: flex;
+}
+
+#sidebar-content {
+    background-color: rgb(182, 199, 255);
+    width: 200px;
+}
+
+#main-content {
+    background-color: bisque;
+    flex: 1;
+}
