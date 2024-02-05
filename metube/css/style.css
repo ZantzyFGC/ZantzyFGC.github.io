@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background: radial-gradient(at top left, rgb(230, 93, 230), rgb(29, 2, 48))
+}
+
+#grid-layout {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    grid-template-areas: 
+        "header header" 
+        "sidebar content";
+}
+
+#header {
+    grid-area: header;
+    padding: 0px 36px;
+}
+
+#header a {
+    text-decoration: none;
+}
+
+#header #me {
+    color: #111;
+}
+
+#header #tube {
+    color: white;
+    background-color: rgb(143, 35, 116);
+    padding: 4px;
+    border-radius: 12px;
+}
+
+#sidebar {
+    grid-area: sidebar;
+}
+
+#sidebar a {
+    text-decoration: none;
+    color: #111;
+    display: block;
+    padding: 12px;
+    opacity: .5;
+}
+
+#sidebar ul a:hover {
+    background-color: rgb(43, 9, 26);
+    color: white;
+    border-radius: 12px;
+    opacity: 1;
+}
+
+#sidebar ul {
+    list-style-type: none;
+    padding: 12px 0px;
+    margin: 0px;
+    border-bottom: 1px solid #611751;
+}
+
+#main {
+    grid-area: content;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.metube-item {
+    flex: 250px;
+    margin-right: 12px;
+    margin-bottom: 24px;
+}
+
+.metube-item .thumbnail {
+    border-radius: 24px 0px 24px 0px;
+    background: radial-gradient(at top left, pink, coral);
+    aspect-ratio: 16 / 9;
+    box-shadow: 6px 6px 6px;
+}
+
+.metube-item h4 a {
+    text-decoration: none;
+    color: #111;
+    display: block;
+    margin: 8px;
+}
+
+.metube-item h4 a:hover {
+    text-decoration: underline;
+}
+
+.metube-item .video-details {
+    margin: 8px;
+    font-size: 14px;
+}
+
+.metube-item .channel {
+    margin-bottom: 4px;
+}
+
+.metube-item#m1 .thumbnail  {
+    background-image: url(../images/2.jpg);
+    background-size: cover;
+}
+
+.metube-item#m2 .thumbnail  {
+    background-image: url(../images/1.jpg);
+    background-size: cover;
+}
+
+.metube-item#m3 .thumbnail  {
+    background-image: url(../images/4.jpg);
+    background-size: cover;
+}
+
+.metube-item#m4 .thumbnail  {
+    background-image: url(../images/3.jpg);
+    background-size: cover;
+}
+
+.metube-item#m5 .thumbnail  {
+    background-image: url(../images/5.jpg);
+    background-size: cover;
+}
+
+.metube-item#m6 .thumbnail  {
+    background-image: url(../images/6.jpg);
+    background-size: cover;
+}
