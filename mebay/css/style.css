@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#grid-layout {
+    display: grid;
+    grid-template-columns: .5fr 1fr .5fr;
+    grid-template-areas: 
+    "header header header" 
+    "sidebar-pic main sidebar";
+}
+
+#main {
+    grid-area: main;
+    padding: 12px;
+}
+
+.bulk {
+    display: inline-block;
+}
+
+.savings {
+    display: inline-block;
+    border: 1px solid lightgray;
+    padding: 0px 6px 0px 6px;
+    text-align: center;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.274);
+}
+
+
+
+.price-sm {
+    font-weight: bold;
+}
+
+#header {
+    grid-area: header;
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+}
+
+#sidebar-pic {
+    grid-area: sidebar-pic;
+    margin-top: 48px;
+}
+
+#sidebar-pic img {
+    width: 300px;
+}
+
+#sidebar {
+    grid-area: sidebar;
+    padding: 12px;
+}
+
+#sb-box-1 {
+    border: 2px solid lightgrey;
+    padding: 6px;
+    border-radius: 12px;
+}
+
+#sb-box-2 {
+    border: 2px solid lightgrey;
+    padding: 6px;
+    border-radius: 12px;
+    margin-top: 12px;
+}
+
+#sb-box-2 ul {
+    list-style: none;
+}
+
+#m {
+    color: purple;
+}
+
+#e {
+    color: red;
+}
+
+#b {
+    color: blue;
+}
+
+#a {
+    color: rgb(226, 178, 21);
+}
+
+#y {
+    color: rgb(71, 179, 71);
+}
+
+
+
+
+
+#button-1 p{
+    background-color: rgb(28, 28, 136);
+    color: white;
+    padding: 12px 36px 12px;
+    border-radius: 24px;
+}
+
+#button-2 p{
+    background-color: rgb(44, 171, 180);
+    color: white;
+    padding: 12px 36px 12px;
+    border-radius: 24px;
+}
+
+#button-3 p{
+    background-color: rgb(255, 255, 255);
+    color: rgb(57, 98, 233);
+    padding: 12px 20px 12px;
+    border: 1px solid rgb(57, 98, 233);
+    border-radius: 24px;
+}
