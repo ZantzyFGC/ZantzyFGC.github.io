@@ -1,0 +1,77 @@
+/*
+    Write your CSS for the assignment here.
+
+    You shouldn't need to modify the HTML;
+    however, you are allowed to. 
+    
+    Just be aware that you may break some
+    of the setup.css styling if you do so.
+*/
+
+/*
+    Write your CSS for the assignment here.
+
+    You shouldn't need to modify the HTML;
+    however, you are allowed to. 
+    
+    Just be aware that you may break some
+    of the setup.css styling if you do so.
+*/
+
+.card-style-2 {
+    width: 350px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 36px;
+    margin: 16px;
+    transition: transform 0.5s;
+}
+
+.card-style-2:hover {
+    transform: translateY(-8px);
+}
+
+.card-style-2 h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 24px;
+}
+
+
+
+.card-style-2 p {
+    padding: 48px;
+    padding-top: 0px;
+    padding-bottom: 0%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.card-style-2 img {
+    width: 60%;
+    border-radius: 200px;
+}
+
+.animagram-footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    padding: 24px;
+}
+
+.profile-pic-container {
+    text-align: center;
+    margin: 12px;
+}
+
+.animagram-header {
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 28px;
+}
+
+.brand-name {
+    transform: translateY(18px);
+}
+
+
