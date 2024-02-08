@@ -1,0 +1,50 @@
+/*
+    Write your CSS for the assignment here.
+
+    You shouldn't need to modify the HTML;
+    however, you are allowed to. 
+    
+    Just be aware that you may break some
+    of the setup.css styling if you do so.
+*/
+
+.card-style-1 {
+    width: 350px;
+    box-shadow: 6px 6px 6px rgba(24, 24, 24, 0.678);
+    background-color: rgb(233, 253, 233);
+    display: flex;
+    flex-direction: column;
+    margin: 16px;
+    transition: box-shadow 0.5s, transform 0.5s;
+}
+
+.card-style-1:hover {
+    box-shadow: 10px 10px 10px rgba(24, 24, 24, 0.678); 
+    transform: translateY(-8px);
+}
+
+.card-style-1 h2 {
+    text-align: center;
+}
+
+.card-style-1 a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    background-color: green;
+    padding: 24px;
+    transition: background-color 0.5s;
+}
+
+.card-style-1 a:hover {
+    background-color: rgb(141, 206, 141);
+}
+
+.card-style-1 p {
+    padding: 12px;
+}
+
+.card-style-1 img {
+    width: 100%;
+}
