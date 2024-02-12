@@ -60,12 +60,12 @@ body {
 }
 
 #hero-2 h2 {
-    font-size: 8vw;
+    font-size: 6vw;
     margin: 0px 5vw 5vh 0px;
 }
 
 #hero-2 h4 {
-    font-size: 3vw;
+    font-size: 2vw;
     margin: 0px 5vw 0px 0px;
 }
 
@@ -95,7 +95,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    filter: blur()
 }
 
 
