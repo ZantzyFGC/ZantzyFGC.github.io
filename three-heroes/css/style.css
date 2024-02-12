@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#hero-1 {
+    background-image: url(../images/67890134412a14b0cd3d3d7160b9b1c7.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#hero-1 h2 {
+    font-size: 6vw;
+    margin: 0px 5vw 5vh 0px;
+    color: white;
+}
+
+#hero-1 h3 {
+    font-size: 2vw;
+    margin: 0px 5vw 0px 0px;
+    color: white;
+}
+
+#hero-1 a {
+    font-size: 1.5vw;
+    display: inline-block;
+    text-decoration: none;
+    background-color: black;
+    padding: 16px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin: 5vh 5vw 10vh 0px;
+}
+
+
+#hero-2 {
+    background-image: url("../images/Persona-3-Reload-1.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#hero-2 .hero-content {
+    text-align: right;
+    color: rgb(255, 255, 255);
+    padding-top: 20vh;
+}
+
+#hero-2 h2 {
+    font-size: 8vw;
+    margin: 0px 5vw 5vh 0px;
+}
+
+#hero-2 h4 {
+    font-size: 3vw;
+    margin: 0px 5vw 0px 0px;
+}
+
+#hero-2 a {
+    font-size: 1.5vw;
+    display: inline-block;
+    background-color: white;
+    box-shadow: 6px 6px 6px darkblue;
+    color: #333333;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+    transition: box-shadow 0.5s, transform 0.5s, background-color 0.5s;
+}
+
+#hero-2 a:hover {
+    transform: translateY(-6px);
+    box-shadow: 8px 8px 8px darkblue;
+    background-color: rgb(210, 239, 255);
+}
+
+#hero-3 {
+    background-image: url("../images/jfpjr4ruu8xz.webp");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: blur()
+}
+
+
+#hero-3 .hero-content {
+    text-align: center;
+    color: white;
+    padding-top: 20vh;
+}
+
+#hero-3 h2 {
+    font-size: 8vw;
+    margin-bottom: 5vh;
+}
+
+#hero-3 h4 {
+    font-size: 3vw;
+    margin: 0px;
+}
+
+#hero-3 a {
+    font-size: 1.5vw;
+    display: inline-block;
+    background-color: white;
+    color: #333333;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 2vw 10vh;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.493);
+}
