@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/Untitled-2-01.jpg);
+    font-family: sans-serif;
+    margin: 0px;
+}
+
+#navbar {
+    background-color: rgb(31, 17, 1);
+    display: flex;
+    align-items: center;
+}
+
+#navbar a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+
+#navbar a:hover {
+    background-color: rgb(56, 46, 35);
+}
+
+#navbar #logo {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 36px;
+    padding-top: 13px;
+    padding-bottom: 12px;
+}
+
+.dropdown-container {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: 
+        opacity 0.25s,
+        visibility 0.25s;
+}
+
+.dropdown-container:last-child .dropdown-menu {
+    right: 0px;
+}
+
+.dropdown-container:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+.dropdown-menu a {
+    background-color: rgb(73, 73, 73);
+    width: 100%;
+    min-width: 200px;
+    box-shadow: 6px 6px 6px black;
+}
+
+#navbar .dropdown-menu a:hover {
+    background: rgb(56, 46, 35);
+}

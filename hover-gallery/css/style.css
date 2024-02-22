@@ -1,0 +1,389 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0px;
+}
+
+#gallery-1-container {
+    display: flex;
+    align-items: center;
+}
+
+#gallery-1 h1 {
+    text-align: center;
+}
+
+.card-1-g1 {
+    flex: 300px;
+    background-color: rgb(0, 0, 0);
+    margin: 24px;
+    padding: 36px;
+    text-align: center;
+    color: black;
+}
+
+.card-1-g1 a {
+    text-decoration: none;
+    color: black;
+}
+
+.card-1-g1:hover h3 {
+    color: red;
+    text-shadow: 0px 0px 16px red;
+}
+
+.card-1-g1:hover p {
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 8px red;
+}
+
+.card-1-g1:hover a {
+    color: red;
+    text-shadow: 0px 0px 8px red;
+}
+
+
+.card-1-g1:hover h3 {
+    transition: color 0.5s, text-shadow 0.5s;
+}
+
+.card-1-g1:hover p {
+    transition: color 2.5s, text-shadow 2.5s;
+}
+
+.card-1-g1:hover a {
+    transition: color 4s, text-shadow 4s;
+}
+
+
+
+.card-2-g1 {
+    flex: 300px;
+    background-color: rgb(0, 0, 0);
+    margin: 24px;
+    padding: 36px;
+    text-align: center;
+    color: black;
+}
+
+.card-2-g1 a {
+    text-decoration: none;
+    color: black;
+}
+
+.card-2-g1:hover h3 {
+    color: cadetblue;
+    text-shadow: 0px 0px 16px cadetblue;
+}
+
+.card-2-g1:hover p {
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 8px cadetblue;
+}
+
+.card-2-g1:hover a {
+    color: cadetblue;
+    text-shadow: 0px 0px 8px cadetblue;
+}
+
+
+.card-2-g1:hover h3 {
+    transition: color 0.5s, text-shadow 0.5s;
+}
+
+.card-2-g1:hover p {
+    transition: color 2.5s, text-shadow 2.5s;
+}
+
+.card-2-g1:hover a {
+    transition: color 4s, text-shadow 4s;
+}
+
+
+
+
+.card-3-g1 {
+    flex: 300px;
+    background-color: rgb(0, 0, 0);
+    margin: 24px;
+    padding: 36px;
+    text-align: center;
+    color: black;
+}
+
+.card-3-g1 a {
+    text-decoration: none;
+    color: black;
+}
+
+.card-3-g1:hover h3 {
+    color: green;
+    text-shadow: 0px 0px 16px green;
+}
+
+.card-3-g1:hover p {
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 8px green;
+}
+
+.card-3-g1:hover a {
+    color: green;
+    text-shadow: 0px 0px 8px green;
+}
+
+
+.card-3-g1:hover h3 {
+    transition: color 0.5s, text-shadow 0.5s;
+}
+
+.card-3-g1:hover p {
+    transition: color 2.5s, text-shadow 2.5s;
+}
+
+.card-3-g1:hover a {
+    transition: color 4s, text-shadow 4s;
+}
+
+
+
+
+
+.card-4-g1 {
+    flex: 300px;
+    background-color: rgb(0, 0, 0);
+    margin: 24px;
+    padding: 36px;
+    text-align: center;
+    color: black;
+}
+
+.card-4-g1 a {
+    text-decoration: none;
+    color: black;
+}
+
+.card-4-g1:hover h3 {
+    color: red;
+    text-shadow: 0px 0px 16px red;
+}
+
+.card-4-g1:hover p {
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 8px red;
+}
+
+.card-4-g1:hover a {
+    color: red;
+    text-shadow: 0px 0px 8px red;
+}
+
+
+.card-4-g1:hover h3 {
+    transition: color 0.5s, text-shadow 0.5s;
+}
+
+.card-4-g1:hover p {
+    transition: color 2.5s, text-shadow 2.5s;
+}
+
+.card-4-g1:hover a {
+    transition: color 4s, text-shadow 4s;
+}
+
+
+
+
+#gallery-2 {
+    text-align: center;
+}
+
+#gallery-2-container {
+    display: flex;
+    align-items: center;
+}
+
+.card-1-g2 {
+    margin: 24px;
+    padding: 36px;
+    flex: 300px;
+    border: 3px solid black;
+    border-radius: 24px;
+    text-align: center;
+    color: black;
+    transition: transform 1s;
+}
+
+.card-2-g2 {
+    margin: 24px;
+    padding: 36px;
+    flex: 300px;
+    border: 3px solid black;
+    border-radius: 24px;
+    text-align: center;
+    color: black;
+    transition: transform 1s;
+}
+
+.card-3-g2 {
+    margin: 24px;
+    padding: 36px;
+    flex: 300px;
+    border: 3px solid black;
+    border-radius: 24px;
+    text-align: center;
+    color: black;
+    transition: transform 1s;
+}
+
+.card-4-g2 {
+    margin: 24px;
+    padding: 36px;
+    flex: 300px;
+    border: 3px solid black;
+    border-radius: 24px;
+    text-align: center;
+    color: black;
+    transition: transform 5s;
+}
+
+.card-1-g2:hover {
+    background-color: pink;
+    box-shadow: 6px 6px;
+    transform: rotate(360deg);
+}
+
+.card-2-g2:hover {
+    background-color: rgb(165, 218, 167);
+    box-shadow: 6px 6px;
+    transform: rotate(720deg);
+}
+
+.card-3-g2:hover {
+    background-color: rgb(146, 233, 240);
+    box-shadow: 6px 6px;
+    transform: rotate(1080deg);
+}
+
+.card-4-g2:hover {
+    background-color: rgb(190, 131, 190);
+    box-shadow: 6px 6px;
+    transform: rotate(100000deg);
+}
+
+
+
+
+#gallery-3 {
+    text-align: center;
+}
+
+#gallery-3-container {
+    display: flex;
+}
+
+.card-1-g3 {
+    flex: 300px;
+    border: 1px solid black;
+    background-image: url(../images/SMA-Concept-Art-6.webp);
+    background-size: 100%;
+    margin: 24px;
+    padding: 36px;
+    text-align: center;
+    transition: opacity 0.5s;
+}
+
+
+.card-2-g3 {
+    flex: 300px;
+    border: 1px solid black;
+    background-image: url(../images/ManiaTailsFront.webp);
+    background-size: 100%;
+    margin: 24px;
+    padding: 36px;
+    text-align: center;
+    transition: opacity 0.5s;
+}
+
+
+
+.card-3-g3 {
+    flex: 300px;
+    border: 1px solid black;
+    background-image: url(../images/ManiaKnucklesFront.webp);
+    background-size: 100%;
+    margin: 24px;
+    padding: 36px;
+    text-align: center;
+    transition: opacity 0.5s;
+}
+
+
+
+.card-4-g3 {
+    flex: 300px;
+    border: 1px solid black;
+    background-image: url(../images/improved-classic-amy-not-an-actual-artist-can-you-tell-v0-0nb97d2n91c91.webp);
+    background-size: 100%;
+    margin: 24px;
+    padding: 36px;
+    text-align: center;
+    transition: opacity 0.5s;
+}
+
+.card-1-g3 h2 {
+    opacity: 0;
+}
+
+.card-1-g3:hover {
+    opacity: .5;
+}
+
+.card-1-g3:hover h2 {
+    opacity: 1;
+}
+
+
+
+
+.card-2-g3 h2 {
+    opacity: 0;
+}
+
+.card-2-g3:hover {
+    opacity: .5;
+}
+
+.card-2-g3:hover h2 {
+    opacity: 1;
+}
+
+
+
+.card-3-g3 h2 {
+    opacity: 0;
+}
+
+.card-3-g3:hover {
+    opacity: .5;
+}
+
+.card-3-g3:hover h2 {
+    opacity: 1;
+}
+
+
+
+.card-4-g3 h2 {
+    opacity: 0;
+}
+
+.card-4-g3:hover {
+    opacity: .5;
+}
+
+.card-4-g3:hover h2 {
+    opacity: 1;
+}
