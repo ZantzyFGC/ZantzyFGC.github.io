@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(61, 61, 61);
+    color: white;
+    font-family: sans-serif;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+}
+
+
+#header #logo img{
+    width: 400px;
+}
+
+#navbar {
+    border: 1px solid white;
+    background-color: #282224;
+    display: flex;
+    justify-content: space-between; 
+    margin: 0px;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 36px;
+    transition: background-color 0.5s;
+}
+
+#navbar a:hover {
+    background-color: rgb(20, 20, 20);
+}
+
+#hero-img {
+    background-image: url("../images/DA_21July15_0471_Hi_Res_.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50vh;
+    border: 1px solid white;
+    filter: blur(4px);
+}
+
+#hero-text {
+  border: 3px solid #f1f1f1;
+  background-color: #282224e7;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 6px 6px 6px black;
+  margin: 0px;
+}
+
+#hero-button {
+    border: 3px solid #f1f1f1;
+    background-color: #282224;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20%;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 6px 6px 6px black;
+    transition: box-shadow 0.5s, width 0.5s;
+  }
+
+  #hero-button a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+
+  #hero-button:hover {
+    box-shadow: 8px 8px 8px black;
+    width: 25%;
+    background-color:rgb(61, 61, 61);
+  }
+
+  #hero-button:active {
+    background-color: #6b6b6b;
+  }
+  
+  #description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 24px;
+    position: absolute;
+    top: 150%;
+    left: 15%;
+  }
+
+  #main {
+    border: 3px solid white;
+    margin: 24px 100px;
+  }
+
