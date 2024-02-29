@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: blueviolet;
+    color: rgb(255, 255, 255);
+}
+
+#header {
+    text-align: center;
+}
+
+#header h1 {
+    font-size: 60px;
+    margin: 0%
+}
+
+#team-mid {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 50px;
+    font-size: 24px
+}
+
+#teams {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+#team-left, #team-right {
+    text-align: center;
+}
+
+#team-left img, #team-right img {
+    width: 350px;
+}
+
+#team-left h2, #team-right h2 {
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+
+#bottom {
+    margin-top: 100px;
+    text-align: center;
+}
+
+#bottom a {
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 12px;
+    margin: 12px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+#bottom a:hover {
+    background-color: rgb(25, 4, 58);
+    color: white;
+}
