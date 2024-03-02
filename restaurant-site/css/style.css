@@ -45,7 +45,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 50vh;
+  margin-bottom: 50px;
   border: 1px solid white;
   filter: blur(4px);
 }
@@ -157,11 +157,13 @@ border-color: #39153b;
 
 #featured {
 text-align: center;
+margin-top: 50px;
 }
 
 #featured-div {
+max-width: 1100px;
 display: flex;
-margin: 0px 100px;
+margin: 0px auto 150px;
 border: 2px solid white;
 justify-content: space-between;
 }
